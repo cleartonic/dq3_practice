@@ -7,6 +7,16 @@ hirom
 !scratchram4 = $3808
 !nextwarptile = $9D59
 !nextwarptile2 = $9D5B
+; !nextwarptile3 = $9D5D
+; !nextwarptile4 = $9D5F
+; !nextwarptile5 = $9D61
+; !nextwarptile6 = $9D63
+; !nextwarptile7 = $9D65
+; !nextwarptile8 = $9D67
+; !nextwarptile9 = $9D69
+; !nextwarptile10 = $9D6B
+; !nextwarptile11 = $9D6D
+; !nextwarptile12 = $9D6F
 
 incsrc asm_data/active_party.asm
 incsrc asm_data/party_data.asm
