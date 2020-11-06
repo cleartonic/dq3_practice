@@ -1,6 +1,12 @@
 # Dragon Quest III Practice Hack
 This is a modification to Dragon Quest III for speedrunning purposes. The hack makes use of the debug menu and implements custom functions to set up the player's party for efficient speedrun practice. 
 
+# Demonstration
+[![2](http://img.youtube.com/vi/AOuNvMnZfaE/0.jpg)](http://www.youtube.com/watch?v=AOuNvMnZfaE "1")
+
+## Controls
+L Button - Access the Debug menu outside of battle with control of the player
+
 ## Usage
 Navigate to [releases](https://github.com/cleartonic/dq3_practice/releases) to download the latest `.ips` file and use [Lunar IPS](https://fusoya.eludevisibility.org/lips/) to apply to a Dragon Quest III (J) ROM. 
 
@@ -58,9 +64,6 @@ The debug menu's options has been translated as part of this hack. It offers man
 - CREDIT - Begins the credits sequence
 - XSTAFF - Sets the flag for using the Change Rod. Does not reflect visually on the party's sprites
 - 
-
-## Controls
-L Button - Access the Debug menu outside of battle with control of the player
 
 ## Credits
 [@cleartonic](https://twitter.com/cleartonic)
