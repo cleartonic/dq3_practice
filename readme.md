@@ -1,7 +1,8 @@
 # Dragon Quest III Practice Hack
 This is a modification to Dragon Quest III for speedrunning purposes. The hack makes use of the debug menu and implements custom functions to set up the player's party for efficient speedrun practice. 
 
-# Demonstration
+# Demonstration video
+Shift-click the below for a YouTube video demonstrating this hack:
 [![2](http://img.youtube.com/vi/AOuNvMnZfaE/0.jpg)](http://www.youtube.com/watch?v=AOuNvMnZfaE "1")
 
 ## Controls
