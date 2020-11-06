@@ -6,11 +6,11 @@ Control-click the below for a YouTube video demonstrating this hack:
 
 [![2](http://img.youtube.com/vi/AOuNvMnZfaE/0.jpg)](http://www.youtube.com/watch?v=AOuNvMnZfaE "1")
 
-## Controls
-L Button - Access the Debug menu outside of battle with control of the player
-
 ## Usage
 Navigate to [releases](https://github.com/cleartonic/dq3_practice/releases) to download the latest `.ips` file and use [Lunar IPS](https://fusoya.eludevisibility.org/lips/) to apply to a Dragon Quest III (J) ROM. 
+
+## Controls
+L Button - Access the Debug menu outside of battle with control of the player
 
 ## Methodology
 The available "presets" described below are essentially warp points to various parts in the speedrun route. Each preset sets the party, location, and all other internal flags as if they player was there during the run. For example, the "BARAMOS" preset places the player at the Baramos arena right before the fight, with the full party loadout. 
