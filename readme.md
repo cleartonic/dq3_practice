@@ -64,7 +64,7 @@ The debug menu's options has been translated as part of this hack. It offers man
 - ROM DATA - Views ROM data
 - CREDIT - Begins the credits sequence
 - XSTAFF - Sets the flag for using the Change Rod. Does not reflect visually on the party's sprites
-- 
+
 
 ## Credits
 [@cleartonic](https://twitter.com/cleartonic)
