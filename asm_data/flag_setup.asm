@@ -654,4 +654,39 @@ rtl ; safety rtl
 
 
 
+; ZOMA KS
+org $C8F823 ; data used for indirect event function
+db $00, $F6, $c0
+org $C0F600
+pha
+; data offsets
+
+lda #$EC80
+sta !scratchram0
+lda #$E950
+sta !scratchram1
+lda #$F910
+sta !scratchram2
+lda #$FB20
+sta !scratchram3
+lda #$FB40
+sta !scratchram4
+; warp tile
+lda #$00BD
+sta !nextwarptile
+sta !nextwarptile2
+; rura locations
+lda #$7FFF
+sta $3680
+lda #$000B
+sta $3682
+; flags
+pla
+jsr FlagHandler
+; warp
+jml $C619BC
+rtl ; safety rtl
+
+
+
 
