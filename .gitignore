@@ -5,9 +5,9 @@ docs/
 ext/
 notes/
 rom/
-patches/*
 randomizer/*
 randomizer_backup/*
 *.sfc
 *.smc
 *.bst
+*.srm

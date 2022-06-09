@@ -7,7 +7,7 @@ Control-click the below for a YouTube video demonstrating this hack:
 [![2](http://img.youtube.com/vi/AOuNvMnZfaE/0.jpg)](http://www.youtube.com/watch?v=AOuNvMnZfaE "1")
 
 ## Usage
-Navigate to [releases](https://github.com/cleartonic/dq3_practice/releases) to download the latest `.ips` file and use [Lunar IPS](https://fusoya.eludevisibility.org/lips/) to apply to a Dragon Quest III (J) ROM. 
+Navigate to `/releases` to download the latest `.ips` file and use [Lunar IPS](https://fusoya.eludevisibility.org/lips/) to apply to a Dragon Quest III (J) ROM. 
 
 If you'd like to compile yourself using asar (the compiler program), navigate to the `patches/` directory and execute the `.sh` scripts. You are expected to have a `dq3_j.smc` file here. Open the `.sh` files in a notepad editor to check how the code executes. 
 
