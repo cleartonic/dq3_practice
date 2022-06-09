@@ -2,7 +2,7 @@
 """
 Created on Wed Oct 21 16:09:37 2020
 
-@author: PMAC
+
 """
 
 texts = ["ALTAR KS",

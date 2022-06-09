@@ -18,12 +18,18 @@ hirom
 ; !nextwarptile11 = $9D6D
 ; !nextwarptile12 = $9D6F
 
-incsrc asm_data/active_party.asm
-incsrc asm_data/party_data.asm
-incsrc asm_data/event_flags.asm
-incsrc asm_data/bag_items.asm
-incsrc asm_data/menu_data.asm
-incsrc asm_data/flag_setup.asm
+incsrc active_party.asm
+incsrc party_data.asm
+incsrc event_flags.asm
+incsrc bag_items.asm
+
+if !japanese == 1
+    incsrc menu_data_j.asm
+else
+    incsrc menu_data.asm
+endif
+
+incsrc flag_setup.asm
 
 ; enable debug menu
 org $c6fffa

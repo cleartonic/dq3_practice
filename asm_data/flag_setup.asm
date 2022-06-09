@@ -51,6 +51,9 @@ ldy #$3825
 mvn $C47E
 
 ; Fill gold
+stz $3696
+stz $3697
+
 lda #$FFFF
 sta $3696
 
@@ -86,9 +89,17 @@ org $C808C9
 db $EC, $6B, $CA
 
 
+; first try flee
+org $c25a69
+jml FleeBranch
 
-
-
+org $C0FEA0
+FleeBranch:
+lda #$0300
+sta $23ae
+lda #$ffff
+sta $2462
+jml $C25A6F
 
 
 
@@ -603,7 +614,7 @@ lda #$FAC0
 sta !scratchram4
 
 ; warp tile
-lda #$006D
+lda #$006C
 sta !nextwarptile
 sta !nextwarptile2
 ; rura locations

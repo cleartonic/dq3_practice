@@ -9,6 +9,8 @@ Control-click the below for a YouTube video demonstrating this hack:
 ## Usage
 Navigate to [releases](https://github.com/cleartonic/dq3_practice/releases) to download the latest `.ips` file and use [Lunar IPS](https://fusoya.eludevisibility.org/lips/) to apply to a Dragon Quest III (J) ROM. 
 
+If you'd like to compile yourself using asar (the compiler program), navigate to the `patches/` directory and execute the `.sh` scripts. You are expected to have a `dq3_j.smc` file here. Open the `.sh` files in a notepad editor to check how the code executes. 
+
 ## Controls
 L Button - Access the Debug menu outside of battle with control of the player
 
@@ -22,19 +24,19 @@ As this hack is early in its release, there may be modifications to how player c
 ## Presets
 After accessing the debug menu via the L button, the top entry of the second page is "PRESETS". Below is a list of presets available to the player, via the first two pages:
 
- - POST PYRA - Warp to Isis town after the Pyramid & Isis vault/Queen's room at night
- - POST K1 - Warp to Champagne Tower after the Kandar 1 battle
- - POST K2 - Warp to Kandar's Hideout after the Kandar 2 battle
- - SIOUX 2 - Warp to Sioux for the second visit after collecting the Red Orb and visiting Jipang & Dharma
- - POST GRIND - Warp to Garuna Tower after Mage has learned Bikill at Lv21
- - SAMANOSA - Warp to Samanosa after reaching there for the first time
- - POST TROLL - Warp to Samanosa King's bedroom after defeating Boss Troll
- - SILV ORB - Warp to Silver Orb Shrine immediately after the Necrogond
- - RAMIA - Warp to Ramia Shrine after unlocking Ramia via the six Orbs
- - POST BARA - Warp to Aliahan throne room after defeating Baramos 
- - BARAMOS - Warp to Baramos Castle in the throne room arena 
- - ALTAR KS CUT - Warp to Zoma's Castle Altar without the King Sword
- - ALTAR KS CUT - Warp to Zoma's Castle Altar with the King Sword
+ - 1) POST PYRA - Warp to Isis town after the Pyramid & Isis vault/Queen's room at night
+ - 2) POST K1 - Warp to Champagne Tower after the Kandar 1 battle
+ - 3) POST K2 - Warp to Kandar's Hideout after the Kandar 2 battle
+ - 4) SIOUX 2 - Warp to Sioux for the second visit after collecting the Red Orb and visiting Jipang & Dharma
+ - 5) POST GRIND - Warp to Garuna Tower after Mage has learned Bikill at Lv21
+ - 6) SAMANOSA - Warp to Samanosa after reaching there for the first time
+ - 7) POST TROLL - Warp to Samanosa King's bedroom after defeating Boss Troll
+ - 8) SILV ORB - Warp to Silver Orb Shrine immediately after the Necrogond
+ - 9) RAMIA - Warp to Ramia Shrine after unlocking Ramia via the six Orbs
+ - 10) POST BARA - Warp to Aliahan throne room after defeating Baramos 
+ - 11) BARAMOS - Warp to Baramos Castle in the throne room arena 
+ - 12) ALTAR KS CUT - Warp to Zoma's Castle Altar without the King Sword
+ - 13) ALTAR KS CUT - Warp to Zoma's Castle Altar with the King Sword
 
 ## Debug menu
 
