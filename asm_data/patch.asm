@@ -24,8 +24,10 @@ incsrc event_flags.asm
 incsrc bag_items.asm
 
 if !japanese == 1
+    print "JAPANESE"
     incsrc menu_data_j.asm
 else
+    print "ENGLISH"
     incsrc menu_data.asm
 endif
 
